@@ -14,4 +14,9 @@ BRANDS = []
     puts "Your shoe is as good as new!"
   end
   
+  def size=(size)
+    @size = size
+    BRANDS << size
+  end 
+
 end
