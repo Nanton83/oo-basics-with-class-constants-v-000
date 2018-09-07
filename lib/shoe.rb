@@ -4,11 +4,10 @@ class Shoe
 
 BRANDS = []
 
-  def initialize(brand, size)
+  def initialize(brand)
     @brand = brand
     @size = size
     BRANDS << brand
-    BRANDS << size 
   end
 
   def cobble
