@@ -16,7 +16,6 @@ BRANDS = []
   
   def size=(size)
     @size = size
-    BRANDS << size
   end 
 
 end
